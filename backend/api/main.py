@@ -32,8 +32,8 @@ SUPABASE_KEY = os.getenv("SUPABASE_ANON_KEY")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 app = FastAPI(
-    title="Saint-Roch en Réseau API",
-    description="API MVP pour le hackathon — données du quartier Saint-Roch, Québec",
+    title="Roch n roll API 🎸",
+    description="API MVP pour le hackathon — Découverte et dynamisation du quartier Saint-Roch, Québec",
     version="0.1.0",
 )
 
@@ -348,7 +348,7 @@ def create_reward(r: RewardCreate):
 @app.get("/", summary="Santé de l'API")
 def root():
     return {
-        "api": "Saint-Roch en Réseau",
+        "api": "Roch n roll API 🎸",
         "version": "0.1.0",
         "status": "ok",
         "docs": "/docs",

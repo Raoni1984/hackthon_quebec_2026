@@ -1,6 +1,6 @@
-# Saint-Roch en Réseau 🗺️
+# Roch n roll 🎸🗺️
 
-MVP de démonstration pour le hackathon — PWA avec carte interactive, système de points et espace commerçant.
+MVP PWA pour le hackathon — Découverte de Saint-Roch, carte interactive, système de points/récompenses et dynamisation des commerces locaux.
 
 ## Stack technique
 
