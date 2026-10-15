@@ -1,0 +1,38 @@
+# ── Secrets — NE JAMAIS COMMITTER ──────────────────────────
+.env
+.env.local
+.env.production
+*.key
+*.pem
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ── Node / Frontend ─────────────────────────────────────────
+node_modules/
+.next/
+out/
+dist/
+.DS_Store
+*.log
+npm-debug.log*
+
+# ── IDE ─────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+
+# ── Données sensibles ────────────────────────────────────────
+backend/data/*.xlsx
+backend/data/*.xls
+backend/data/real_*.csv

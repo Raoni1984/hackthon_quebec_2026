@@ -1,0 +1,14 @@
+# Exemple de données — points d'intérêt Saint-Roch
+# Tu peux remplacer ces lignes par tes vraies données XLS/CSV
+
+nom,categorie,adresse,latitude,longitude,description
+Café L'Expressif,cafe,230 rue Saint-Vallier E,46.8128,-71.2155,Café de quartier, wifi gratuit et ambiance chaleureuse
+Épicerie fine du marché,magasin,199 rue du Parvis,46.8141,-71.2178,Produits locaux et artisans québécois
+Studio Yoga Roch,service,410 rue de la Couronne,46.8135,-71.2168,Cours de yoga et méditation pour tous les niveaux
+Restaurant Le Mozzarella,resto,540 rue Saint-Joseph E,46.8136,-71.2160,Pizza napolitaine et pasta maison
+Bar Le Boudoir,bar,441 rue du Parvis,46.8133,-71.2172,Bar à cocktails et planches à partager
+Atelier céramique Saint-Roch,boutique,356 rue Saint-Vallier E,46.8129,-71.2163,Cours et vente de céramique artisanale
+Œuvre murale de Jésus-Maria,murale,rue Saint-Joseph E,46.8140,-71.2185,Fresque colorée représentant la diversité du quartier
+Parc de la Gare-du-Palais,parc,450 rue de la Gare-du-Palais,46.8160,-71.2140,Petit parc ombragé près de la gare historique
+Pharmacie Brunet Saint-Roch,pharmacie,600 rue Saint-Joseph E,46.8138,-71.2155,Pharmacie communautaire avec conseil personnalisé
+Galerie d''art ESPACE,culture,315 rue du Parvis,46.8130,-71.2175,Galerie indépendante exposant des artistes locaux
