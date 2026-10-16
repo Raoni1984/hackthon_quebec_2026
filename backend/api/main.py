@@ -96,6 +96,15 @@ def get_map_points(category: Optional[str] = None):
     return {"points": result.data, "total": len(result.data)}
 
 
+@app.get("/api/streetlights", summary="Tous les lampadaires d'éclairage public (calque de sécurité)")
+def get_streetlights():
+    """
+    Retourne les coordonnées de tous les lampadaires pour la carte de chaleur lumineuse.
+    """
+    result = supabase.table("streetlights").select("id, latitude, longitude").execute()
+    return {"points": result.data, "total": len(result.data)}
+
+
 @app.get("/api/pois/{poi_id}", summary="Détail d'un lieu")
 def get_poi_detail(poi_id: str):
     """Retourne le détail d'un lieu + ses événements à venir + ses récompenses."""
